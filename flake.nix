@@ -17,7 +17,7 @@
     pwnvim.url = "github:zmre/pwnvim";
   };
   outputs = inputs@{ nixpkgs, home-manager, darwin, pwnvim, ... }: {
-    darwinConfigurations.Demos-Virtual-Machine = darwin.lib.darwinSystem {
+    darwinConfigurations.Jeroens-iMac = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       pkgs = import nixpkgs { system = "aarch64-darwin"; };
       modules = [

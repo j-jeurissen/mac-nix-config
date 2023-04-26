@@ -7,6 +7,7 @@
     fd
     curl
     less
+    jetbrains.idea-ultimate
     pwnvim.packages."aarch64-darwin".default
   ];
   home.sessionVariables = {
