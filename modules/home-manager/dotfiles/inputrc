@@ -1,9 +1,25 @@
-set show-all-if-ambiguous on
-set completion-ignore-case on
-set mark-directories on
-set mark-symlinked-directories on
-set match-hidden-files off
-set visible-stats on
-set keymap vi
-set editing-mode vi-insert
+# Inputrc configuration
 
+# Show all possible matches on ambiguous input
+set show-all-if-ambiguous on
+
+# Enable case-insensitive command completion
+set completion-ignore-case on
+
+# Append a slash to directory names
+set mark-directories on
+
+# Append a slash to symlinked directory names
+set mark-symlinked-directories on
+
+# Don't match hidden files for completion
+set match-hidden-files off
+
+# Show file type indicators
+set visible-stats on
+
+# Set keymap to vi
+set keymap vi
+
+# Set editing mode to vi-insert
+set editing-mode vi-insert
