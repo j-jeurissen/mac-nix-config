@@ -18,7 +18,7 @@
     systemPath = [ "/opt/homebrew/bin" ];
 
     # Set paths to link
-    pathsToLink = [ "/Applications" ];
+#    pathsToLink = [ "/Applications" ];
   };
 
   # Enable experimental Nix features
