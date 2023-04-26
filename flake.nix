@@ -36,7 +36,7 @@
             useGlobalPkgs = true;
             useUserPackages = true;
             extraSpecialArgs = { inherit pwnvim; };
-            users.demo.imports = [ ./modules/home-manager ];
+            users.jeroen.imports = [ ./modules/home-manager ];
           };
         }
       ];
